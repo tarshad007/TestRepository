@@ -17,4 +17,3 @@ RUN apt-get install -y apache2-utils
 EXPOSE 80
 # Execute command at container launch
 CMD ["apache2ctl", "-D", "FOREGROUND"]
---
