@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
-ARG SDLC_ARG
-ENV SDLC_ENV=${SDLC_ARG}
+#ARG SDLC_ARG
+#ENV SDLC_ENV=${SDLC_ARG}
 RUN echo "ARG value for SDLC_ENV is $SDLC_ENV"
 RUN echo "ENV value for SDLC_ENV is $SDLC_ENV"
 # To Set a default value
